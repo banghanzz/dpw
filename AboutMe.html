@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+
+<style>
+    body{
+        background-color: rgb(237, 247, 237);
+    }
+
+    header{
+        background-color: rgb(208, 236, 208);
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav{
+        float: left;
+        width: 15%;
+        height: 840px;
+        background: rgb(221, 233, 221);
+        padding: 20px;
+    }
+
+    article {
+        float: left;
+        padding: 40px;
+        width: 75%;
+        height:800px;
+        background-color:rgb(237, 247, 237);
+    }
+
+    /* Clear floats after the columns */
+    section::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    footer {
+        background-color: rgb(59, 97, 59);
+        padding: 10px;
+        text-align: center;
+        height: 160px;
+        color: white;
+    }
+
+    h1{
+        color: rgb(20, 20, 20);
+        font-size: 42px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    h2{
+        color: rgb(20, 20, 20);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    h3{
+        color: rgb(240, 240, 240);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    p{
+        color: rgb(51, 51, 51);
+        font-size: 18px; 
+        text-align: justify;
+    }
+
+</style>
+
+<body>
+    <header>
+        <h1>BangHanz's Blog</h1>
+    </header>
+
+    <section>
+        <nav>
+            <!-- Header -->
+            <ul>
+                <li><a href="AboutMe.html">About Me</a></li>
+                <li><a href="CV.html">CV</a></li>
+            </ul>
+        </nav>
+    
+        <article>
+            <!-- Judul dan Profile Pict -->
+            <h2>About Me</h2>
+            <center>
+                <img src="frontend/images/farhan-profilepict.jpg" alt="Profile Picture" width="400" height="300" >
+            </center>
+        
+            <!-- Paragraf -->
+            <p>Halo guys !! Kenalin, aku Muhammad Farhan Al Rasyid. Biasanya sih temen-temenku manggil "Han" aja. Saat ini aku baru saja menjadi Mahasiswa Univeristas Riau tepatnya di Jurusan Teknik Informatika. Senang sekali rasanya bisa lolos masuk ke Jurusan yang memang aku sukai. 
+                <br><br>Mungkin kalian bertanya, mengapa aku memilih Teknik Informatika ? Jawabanku sih, karena aku suka dengan perkembangan teknologi. Aku selalu mengikuti perkembangan gadget-gadget zaman now. Makanya, aku ingin tau, bagaimana sih teknologi yang sekarang ini dikembangkan ? Tapi, selain Tech Enthusiast, aku juga suka otomotif lho. Yaa walaupun hanya sekedar mengikuti perkembangannya saja.
+                <br><br>Apa ? Kalian bertanya tentang hobiku ? Entahlah, tapi yg sering kulakukan adalah menonton. Entah itu film, youtube, atau konten-konten video lainnya. Oiyaa, aku juga sering dimintai tolong untuk menjadi "photograper dadakan" oleh temen-temenku. Walaupun belum profesional dan belum punya kamera profesional juga, Alhamdulillah temen-temenku pada suka dengan hasil tangkapan fotoku. Hehehe.. 😅 Kemudian, aku juga suka nyanyi sambil gitaran. Suka Travelling nggak ? Suka dongg, apalagi ada spot-spot indah yg bisa dijadikan objek foto.
+                <br><br>Sampai disini dulu ya perkenalanku. Yuk kepoin aku Instagram ku di @farhan_alrasyid 🙏 Follow boleh, apalagi like sampe akar 😅
+            </p>
+            
+            <!-- Ordered List -->
+            <p>Hal yang diharapkan setelah lulus : </p>
+            <ol>
+                <li>Saya ingin menjadi seorang UI/UX Designer</li>
+                <li>Saya juga ingin memiliki bisnis di bidang Teknologi dan Komputer</li>
+                <li>Saya ingin terus belajar mendalami ilmu yang terus berkembang</li>
+            </ol>
+        </article>
+    </section>
+
+    <br><br>
+
+    <footer>
+        <!-- Media Sosial -->
+        <h3>Social Media</h3>
+        <center>
+            <a href="https://www.facebook.com/muhammad.f.rasyid.16" target="_blank"><img src="frontend/images/logo-facebook.png" alt="Facebook" width="35" height="35"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="https://www.instagram.com/farhan_alrasyid/?hl=id" target="_blank"><img src="frontend/images/logo-instagram.png" alt="Instagram" width="35" height="35" ></a>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="https://mobile.twitter.com/farhanalrasyid7" target="_blank"><img src="frontend/images/logo-twitter.png" alt="Twitter" width="35" height="35"></a>
+        </center>
+    </footer>
+</body>
+
+</html>
