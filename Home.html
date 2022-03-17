@@ -1,23 +1,94 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="frontend/style/home_style.css">
-</head>
 
-<style>
-    body{
-        background-image: url('frontend/images/bg_img_dark.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-</style>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BangHanzz's Blog</title>
+        <link rel="stylesheet" href="frontend/style/home_style.css">
 
-<body>
-    <header>Welcome to My Blog</header>
-    <h1></h1>
-    
-</body>
+        <!-- Poppins -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Blog Banner -->
+        <div class="banner">
+            <div class="navbar">
+                <img src="frontend/images/f_logo_white.png" class="logo">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="AboutMe.html">About</a></li>
+                    <li><a href="CV.html">CV</a></li>
+                </ul>
+            </div>
+            
+            <div class="content">
+                <h1>Welcome To My Blog</h1>
+                <p>Yuk lihat keseruan ngoding ini bersama-sama :)</p>
+                <div>
+                    <button type="button" onclick="window.location.href='AboutMe.html';">ABOUTME</button>
+                    <button type="button" onclick="window.location.href='CV.html';">CV</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Blog Content-->
+        <section id="blog">
+
+            <!-- Heading -->
+            <div class="blog-heading">
+                <h3>Postingan Saya</h3>
+            </div>
+
+            <!-- blog-container -->
+            <div class="blog-container">
+
+                <!-- box-1 -->
+                <div class="blog-box">
+                    
+                    <!-- img -->
+                    <div class="blog-img">
+                        <img src="https://miro.medium.com/max/4800/1*CMlDL6EwSyunRha-8yW6FQ.jpeg" alt="blog">
+                    </div>
+
+                    <!-- text -->
+                    <div class="blog-text">
+                        <h6>06 Mei 2021</h6>
+                        <span>Farhan Al Rasyid</span>
+                        <a href="https://farhanalrasyid.blogspot.com/2021/05/10-tips-agar-desain-ui-kamu-terlihat.html" class="blog-title">10 Tips Agar Desain UI Kamu Terlihat Lebih Menarik!</a>
+                        <p>Desain antarmuka pengguna atau user interface (UI) berperan penting dalam keberhasilan sebuah situs atau aplikasi. Begitu pula dengan desain user experience (UX). Jika pengguna tidak dapat menemukan apa yang mereka cari atau mengakses sesuatu dengan mudah, mereka cenderung meninggalkan layanan tersebut.</p>
+                        <a href="https://farhanalrasyid.blogspot.com/2021/05/10-tips-agar-desain-ui-kamu-terlihat.html">Read More</a>
+                    </div>
+                </div>
+
+                <!-- box-2 -->
+                <div class="blog-box">
+                    
+                    <!-- img -->
+                    <div class="blog-img">
+                        <img src="https://foto.co.id/wp-content/uploads/2017/12/rule-of-thirds.jpg" alt="blog">
+                    </div>
+
+                    <!-- text -->
+                    <div class="blog-text">
+                        <h6>06 Mei 2021</h6>
+                        <span>Farhan Al Rasyid</span>
+                        <a href="https://farhanalrasyid.blogspot.com/2021/04/mengenal-apa-itu-rules-of-third.html" class="blog-title">Mengenal Apa Itu Rules of Third - Pengertian dan Cara Menggunakannya!</a>
+                        <p>Kali ini, aku akan berbagi sedikit mengenai aturan / prinsip rule of thirds. Salah satu cara atau teknik yang paling mudah untuk meningkatkan kemampuan foto kamu adalah dengan menerapkan prinsip ‘rule of thirds’ saat sedang mengambil gambar. Yuk simak uraian kita berikut ini!</p>
+                        <a href="https://farhanalrasyid.blogspot.com/2021/04/mengenal-apa-itu-rules-of-third.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <p>Author : Farhan Al Rasyid</p>
+            <p>Made with 🤍 from Pekanbaru <br>Copyright ©2022</p>
+        </footer>      
+    </body>
 </html>
